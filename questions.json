@@ -1,0 +1,82 @@
+[
+    {
+      "question": "Aus wie vielen Bits besteht eine IPv4-Adresse?",
+      "answer": "32 Bits."
+    },
+    {
+      "question": "In wie viele Oktette ist eine IPv4-Adresse aufgeteilt?",
+      "answer": "4 Oktette."
+    },
+    {
+      "question": "Wie viele Bits hat ein Oktett?",
+      "answer": "8 Bits."
+    },
+    {
+      "question": "Welche Werte kann ein Oktett annehmen?",
+      "answer": "0 bis 255 (insgesamt 256 mögliche Werte)."
+    },
+    {
+      "question": "Was bedeutet das /24 in 192.168.0.10/24?",
+      "answer": "Die ersten 24 Bits gehören zum Netzwerkanteil, die restlichen 8 Bits zum Hostanteil."
+    },
+    {
+      "question": "Welche Bits gehören beim /24 zum Netzwerkanteil?",
+      "answer": "Die ersten 24 Bits — also die ersten drei Oktette: 192.168.0."
+    },
+    {
+      "question": "Welche Bits gehören beim /24 zum Hostanteil?",
+      "answer": "Die letzten 8 Bits — das letzte Oktett: .10 im Beispiel."
+    },
+    {
+      "question": "Wie viele Gesamtadressen gibt es in einem /24-Netz?",
+      "answer": "256 Adressen (2⁸)."
+    },
+    {
+      "question": "Wie viele nutzbare Host-Adressen gibt es in einem /24-Netz?",
+      "answer": "254 nutzbare Host-Adressen."
+    },
+    {
+      "question": "Warum sind es nicht 256 nutzbare Adressen?",
+      "answer": "Weil zwei Adressen reserviert sind: die Netz-ID und die Broadcast-Adresse."
+    },
+    {
+      "question": "Was ist die Netz-ID und welche Adresse hat sie im Beispiel 192.168.0.0/24?",
+      "answer": "Die Netz-ID benennt das Netzwerk als Ganzes — im Beispiel 192.168.0.0."
+    },
+    {
+      "question": "Darf man einem PC die Netz-ID zuweisen? Warum nicht?",
+      "answer": "Nein — die Netz-ID darf keinem Gerät zugewiesen werden, da sie das Netzwerk selbst identifiziert."
+    },
+    {
+      "question": "Was ist die Broadcast-Adresse und welche Adresse hat sie im Beispiel?",
+      "answer": "Die Broadcast-Adresse ist die letzte Adresse im Netz — im Beispiel 192.168.0.255."
+    },
+    {
+      "question": "Was passiert, wenn ein Paket an die Broadcast-Adresse gesendet wird?",
+      "answer": "Es wird gleichzeitig an alle Geräte im selben Subnetz gesendet."
+    },
+    {
+      "question": "Was ist der binäre Zustand aller Host-Bits bei der Broadcast-Adresse?",
+      "answer": "Alle Host-Bits sind auf 1 gesetzt (11111111 = 255)."
+    },
+    {
+      "question": "Welcher Adressbereich ist für Geräte nutzbar im Beispiel 192.168.0.0/24?",
+      "answer": "Von 192.168.0.1 bis 192.168.0.254."
+    },
+    {
+      "question": "Was ist DHCP?",
+      "answer": "Ein Protokoll/Dienst, der Geräten beim Netzwerkbeitritt automatisch eine IP-Konfiguration zuweist."
+    },
+    {
+      "question": "Was weist DHCP einem Gerät automatisch zu? (nenne alle drei Werte)",
+      "answer": "IP-Adresse, Subnetzmaske, Standard Gateway."
+    },
+    {
+      "question": "Welches Protokoll nutzt DHCP, um freie IPs abzugleichen?",
+      "answer": "Broadcast."
+    },
+    {
+      "question": "Was ist das Standard Gateway?",
+      "answer": "Die IP-Adresse des Routers — die Schnittstelle aus dem lokalen Netz nach draußen."
+    }
+  ]
